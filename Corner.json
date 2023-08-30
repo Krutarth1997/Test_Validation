@@ -1,0 +1,165 @@
+{
+    "comments": [
+        "This file includes all important information",
+        "to start a jupedsim simulation with the motivation model"
+    ],
+    "version": 0.1,
+    "simulation_parameters": {
+        "fps": 10,
+        "time_step": 0.01,
+        "number_agents": 10,
+        "simulation_time": 100
+    },
+    "motivation_parameters": {
+        "active": 0,
+        "normal_v_0": 1.01,
+        "normal_time_gap": 0.7,
+        "motivation_doors": [
+            {
+                "id": 1,
+                "label": "door",
+                "vertices": [
+                    [
+                        50,
+                        104
+                    ],
+                    [
+                        52.4,
+                        104
+                    ]
+                ]
+            }
+        ]
+    },
+    "grid_parameters": {
+        "min_v_0": 1,
+        "max_v_0": 2,
+        "v_0_step": 0.1,
+        "min_time_gap": 0.1,
+        "max_time_gap": 1,
+        "time_gap_step": 0.1
+    },
+    "accessible_areas": [
+        {
+            "id": 1,
+            "vertices": [
+                [
+                    50.0,
+                    100.0
+                ],
+                [
+                    52.4,
+                    100
+                ],
+                [
+                    52.4,
+                    104
+                ],
+                [
+                    50.0,
+                    104
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "vertices": [
+                [
+                    50.0,
+                    104
+                ],
+                [
+                    55,
+                    104
+                ],
+                [
+                    55,
+                    106.4
+                ],
+                [
+                    50,
+                    106.4
+                ]
+            ]
+        }
+    ],
+    "destinations": [
+        {
+            "id": 1,
+            "label": "exit",
+            "vertices": [
+                [
+                    54.4,
+                    104.0
+                ],
+                [
+                    55,
+                    104.0
+                ],
+                [
+                    55,
+                    106.4
+                ],
+                [
+                    54.4,
+                    106.4
+                ]
+            ]
+        }
+    ],
+    "velocity_model_parameter_profiles": [
+        {
+            "id": 1,
+            "time_gap": 1.0,
+            "tau": 0.5,
+            "v0": 1.0,
+            "radius": 0.1
+        },
+        {
+            "id": 2,
+            "time_gap": 1.0,
+            "tau": 0.5,
+            "v0": 0.1,
+            "radius": 0.1
+        }
+    ],
+    "way_points": [
+        {
+            "coordinates": [
+                51,
+                104
+            ],
+            "distance": 1
+        },
+        {
+            "coordinates": [
+                52.4,
+                105
+            ],
+            "distance": 0.4
+        }
+    ],
+    "distribution_polygons": [
+        {
+            "id": 1,
+            "vertices": [
+                [
+                    50.0,
+                    100.0
+                ],
+                [
+                    52.4,
+                    100.0
+                ],
+                [
+                    52.4,
+                    102.5
+                ],
+                [
+                    50.0,
+                    102.5
+                ]
+            ]
+        }
+    ]
+}
