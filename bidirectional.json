@@ -1,0 +1,208 @@
+{
+    "comments": [
+        "This file includes all important information",
+        "to start a jupedsim simulation with the motivation model"
+    ],
+    "version": 0.1,
+    "velocity_init_parameters": {
+        "a_ped": 0.29,
+        "d_ped": 0.11,
+        "a_wall": 0.5,
+        "d_wall": 0.02
+    },
+    "velocity_model_parameter_profiles": [
+        {
+            "id": 1.0,
+            "time_gap": 1.0,
+            "tau": 0.5,
+            "v0": 1.2,
+            "radius": 0.12
+        }
+    ],
+    "simulation_parameters": {
+        "fps": 60,
+        "time_step": 0.01,
+        "number_agents": 50,
+        "simulation_time": 50
+    },
+    "measurement_line": {
+        "vertices": [
+            [
+                55,
+                101.5
+            ],
+            [
+                55,
+                102.5
+            ]
+        ]
+    },
+    "measurement_area": {
+        "vertices": [
+            [
+                54.5,
+                101.5
+            ],
+            [
+                55.5,
+                101.5
+            ],
+            [
+                55.5,
+                102.5
+            ],
+            [
+                54.5,
+                102.5
+            ]
+        ]
+    },
+    "motivation_parameters": {
+        "motivation_strategy": "default",
+        "active": 0,
+        "normal_v_0": 1.2,
+        "normal_time_gap": 1.0,
+        "width": "1.0",
+        "height": "1.0",
+        "seed": "1.0",
+        "max_value": "1.0",
+        "min_value": "0.0",
+        "motivation_doors": [
+            {
+                "id": 1,
+                "label": "door",
+                "vertices": [
+                    [
+                        55,
+                        101.5
+                    ],
+                    [
+                        55,
+                        102.5
+                    ]
+                ]
+            }
+        ]
+    },
+    "grid_parameters": {
+        "min_v_0": 1,
+        "max_v_0": 2,
+        "v_0_step": 0.1,
+        "min_time_gap": 0.1,
+        "max_time_gap": 1,
+        "time_gap_step": 0.1
+    },
+    "accessible_areas": [
+        {
+            "id": 1,
+            "vertices": [
+                [
+                    50.0,
+                    100.0
+                ],
+                [
+                    60.0,
+                    100.0
+                ],
+                [
+                    60.0,
+                    104.0
+                ],
+                [
+                    50.0,
+                    104.0
+                ]
+            ]
+        }
+    ],
+    "destinations": [
+        {
+            "id": 1,
+            "label": "exit1",
+            "vertices": [
+                [
+                    59.5,
+                    101.5
+                ],
+                [
+                    60,
+                    101.5
+                ],
+                [
+                    60,
+                    102.5
+                ],
+                [
+                    59.5,
+                    102.5
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "label": "exit2",
+            "vertices": [
+                [
+                    50,
+                    101.5
+                ],
+                [
+                    50.5,
+                    101.5
+                ],
+                [
+                    50.5,
+                    102.5
+                ],
+                [
+                    50,
+                    102.5
+                ]
+            ]
+        }
+    ],
+    "distribution_polygons": [
+        {
+            "id": 1,
+            "vertices": [
+                [
+                    50.0,
+                    100.0
+                ],
+                [
+                    52.5,
+                    100.0
+                ],
+                [
+                    52.5,
+                    104.0
+                ],
+                [
+                    50.0,
+                    104.0
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "vertices": [
+                [
+                    57.5,
+                    100.0
+                ],
+                [
+                    60,
+                    100.0
+                ],
+                [
+                    60,
+                    104.0
+                ],
+                [
+                    57.5,
+                    104.0
+                ]
+            ]
+        }
+    ]
+}
